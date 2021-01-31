@@ -1,6 +1,10 @@
 .box {
-  height: 400px;
-  padding: 0px;
+  padding: 20px;
+}
+#floated{
+  float: right;
+  width: 300px;
+  background: red;
 }
 .grey{
   background: #cecece;
