@@ -3,5 +3,6 @@ import pandas as pd
 
 sourceCSV = "Resources/cities.csv"
 df = pd.read_csv(sourceCSV)
+df.set_index('City_ID', inplace=True)
 
 df.to_html("Resources/cities.html")
