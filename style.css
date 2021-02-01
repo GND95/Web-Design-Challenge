@@ -1,6 +1,9 @@
 .box {
   padding: 20px;
 }
+.small-padding{
+  padding: 1px;
+}
 .margin-top-80 {
   margin-top: 80px;
 }
