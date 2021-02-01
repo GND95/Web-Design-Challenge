@@ -1,10 +1,12 @@
 .box {
   padding: 20px;
 }
+.margin-top-80 {
+  margin-top: 80px;
+}
 #floated{
   float: right;
   width: 300px;
-  background: red;
 }
 .grey{
   background: #cecece;
@@ -12,12 +14,20 @@
 .white{
   background: white;
 }
-.margin-top-80 {
-  margin-top: 80px;
-}
 h1{
   color:rgb(145, 128, 177);
 }
 h2{
   color:rgb(145, 128, 177);
+}
+.navbar-screen-size-color{
+  /* Create a class to change the color of the navbar based on the size of the user's screen */
+  background-color: #212529;
+}
+
+/* Here I define a style that will ONLY be applied at screen sizes below 991 pixels */
+@media (max-width: 991px) {
+  .navbar-screen-size-color {
+    background-color: rgb(155, 75, 155);
+  }
 }
